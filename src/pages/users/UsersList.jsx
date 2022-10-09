@@ -18,7 +18,7 @@ const UsersList = () => {
 
   if (isLoading) content = <p>Loading...</p>;
 
-  if (isError)er
+  if (isError)
     content = (
       <p className="flex items-center justify-center h-[32rem] text-2xl text-fuchsia-500">
         Error: {error?.data?.message}
